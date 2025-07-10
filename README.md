@@ -37,5 +37,18 @@ This is an API-based Translation Management Service built using Laravel, designe
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/translation-management.git
+git clone https://github.com/ihammadhashmi/translation-management.git
 cd translation-management
+
+
+
+## Testing
+
+### Create Test Environment
+
+To configure a dedicated test database:
+
+1. Duplicate your existing `.env` file:
+
+```bash
+cp .env .env.testing
